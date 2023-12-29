@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+body {
+    background-color: rgb(20, 102, 9);
+}
+
+p {
+    font-family: Prompt, serif;
+}
+
+h1 {
+    font-family: Nosifer, sans-serif;
+    color: rgb(70, 0, 150);
+    text-align: center;
+}
+
+h2 {
+    font-family: Nosifer, sans-serif;
+    color: rgb(70, 0, 150);
+    text-align: center;
+}
+
+h3 {
+    font-family: Alfa Slab One, sans-serif;
+    color: darkcyan;
+}
+
+h4 {
+    font-family: Alfa Slab One, sans-serif;
+    color: rgb(194, 0, 42);
+}
+
+a {
+    font-family: Prompt, serif;
+    text-decoration: none;
+}
+
+article{
+    width: 100%;
+    height: auto;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 600px){
+    body{
+        width: 100%;
+        height: auto;
+    }
+
+    h1{
+       font-size: 40px;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+
+    h3{
+        font-size: 25px;
+    }
+}
